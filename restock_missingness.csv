@@ -1,0 +1,6 @@
+column,missing_count,missing_pct,dtype
+device_id,0,0.0,object
+global_order_id,0,0.0,object
+restock_date,0,0.0,datetime64[ns]
+currency_code,0,0.0,object
+total,0,0.0,float64

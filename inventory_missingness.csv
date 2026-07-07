@@ -1,0 +1,6 @@
+column,missing_count,missing_pct,dtype
+sku,0,0.0,object
+dispense_date,0,0.0,datetime64[ns]
+device_id,0,0.0,object
+package_qty,0,0.0,int64
+qty_dispensed,0,0.0,int64

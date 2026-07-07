@@ -1,0 +1,119 @@
+{"kind":"deck","id":"pr/7x2psq","name":"Deck"}
+{"kind":"layout","layoutId":"6c7b0666-1f61-4d07-a305-f9808739ebe1","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"cfd6a900-9e45-4235-9766-34244809039a","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/pgxumg","slide":1,"title":"Industrial Vending","textShapes":10}
+{"kind":"textbox","id":"sh/47y1kre1","slide":1,"text":"Industrial Vending\nDemand Forecasting","textPreview":"Industrial Vending | Demand Forecasting","textChars":37,"textLines":2,"bbox":[42,86,760,184]}
+{"kind":"textbox","id":"sh/bm58z25k","slide":1,"text":"Forecasting demand, identifying high-risk inventory patterns, and translating data into restocking decisions.","textPreview":"Forecasting demand, identifying high-risk inventory patterns, and translating data into restocking decisions.","textChars":109,"textLines":1,"bbox":[42,302,680,76]}
+{"kind":"shape","id":"sh/m1cfa9w3","slide":1,"bbox":[846,0,392,720]}
+{"kind":"shape","id":"sh/tgfmlkjm","slide":1,"bbox":[874,92,300,128]}
+{"kind":"textbox","id":"sh/4vmtwra5","slide":1,"text":"38,982","textPreview":"38,982","textChars":6,"textLines":1,"bbox":[892,112,264,54]}
+{"kind":"textbox","id":"sh/bat47y1k","slide":1,"text":"inventory records","textPreview":"inventory records","textChars":17,"textLines":1,"bbox":[892,174,264,32]}
+{"kind":"shape","id":"sh/mp0bi9s3","slide":1,"bbox":[874,248,300,128]}
+{"kind":"textbox","id":"sh/t83itgfm","slide":1,"text":"82","textPreview":"82","textChars":2,"textLines":1,"bbox":[892,268,264,54]}
+{"kind":"textbox","id":"sh/4nap4r65","slide":1,"text":"unique SKUs","textPreview":"unique SKUs","textChars":11,"textLines":1,"bbox":[892,330,264,32]}
+{"kind":"shape","id":"sh/u9knih4b","slide":1,"bbox":[874,404,300,128]}
+{"kind":"textbox","id":"sh/judg7ads","slide":1,"text":"5","textPreview":"5","textChars":1,"textLines":1,"bbox":[892,424,264,54]}
+{"kind":"textbox","id":"sh/cfa9w3m9","slide":1,"text":"vending devices","textPreview":"vending devices","textChars":15,"textLines":1,"bbox":[892,486,264,32]}
+{"kind":"textbox","id":"sh/1032lszq","slide":1,"text":"2022-02-23 to 2024-02-23","textPreview":"2022-02-23 to 2024-02-23","textChars":24,"textLines":1,"bbox":[874,590,300,32]}
+{"kind":"textbox","id":"sh/u18jqh0f","slide":1,"text":"dispense history analyzed","textPreview":"dispense history analyzed","textChars":25,"textLines":1,"bbox":[874,626,300,28]}
+{"kind":"notes","id":"nt/pgxumg","slide":1,"text":""}
+{"kind":"slide","id":"sl/ib82d9","slide":2,"title":"Industrial vending demand forecasting","textShapes":17}
+{"kind":"textbox","id":"sh/0z61032l","slide":2,"text":"Industrial vending demand forecasting","textPreview":"Industrial vending demand forecasting","textChars":37,"textLines":1,"bbox":[42,34,620,28]}
+{"kind":"textbox","id":"sh/7ed8bat4","slide":2,"text":"The workflow turns transaction history into restocking guidance","textPreview":"The workflow turns transaction history into restocking guidance","textChars":63,"textLines":1,"bbox":[42,78,1010,90]}
+{"kind":"shape","id":"sh/itgfmlkj","slide":2,"bbox":[42,174,1196,1]}
+{"kind":"shape","id":"sh/p8nqxs72","slide":2,"bbox":[54,260,190,220]}
+{"kind":"textbox","id":"sh/0nuxc3yl","slide":2,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[72,282,50,28]}
+{"kind":"textbox","id":"sh/72x4nap4","slide":2,"text":"Clean","textPreview":"Clean","textChars":5,"textLines":1,"bbox":[72,324,150,38]}
+{"kind":"textbox","id":"sh/ih4byhgn","slide":2,"text":"Remove duplicates, parse dates, and validate numeric quantity and spend fields.","textPreview":"Remove duplicates, parse dates, and validate numeric quantity and spend fields.","textChars":79,"textLines":1,"bbox":[72,386,150,72]}
+{"kind":"shape","id":"sh/p4r65wju","slide":2,"bbox":[292,260,190,220]}
+{"kind":"textbox","id":"sh/wjudg7ad","slide":2,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[310,282,50,28]}
+{"kind":"textbox","id":"sh/6tovahoz","slide":2,"text":"Explore","textPreview":"Explore","textChars":7,"textLines":1,"bbox":[310,324,150,38]}
+{"kind":"textbox","id":"sh/vahoza1g","slide":2,"text":"Summarize demand by SKU, device, date, month, and weekday.","textPreview":"Summarize demand by SKU, device, date, month, and weekday.","textChars":58,"textLines":1,"bbox":[310,386,150,72]}
+{"kind":"shape","id":"sh/ovahoza1","slide":2,"bbox":[530,260,190,220]}
+{"kind":"textbox","id":"sh/dg7adsji","slide":2,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[548,282,50,28]}
+{"kind":"textbox","id":"sh/6hcrmhk3","slide":2,"text":"Engineer","textPreview":"Engineer","textChars":8,"textLines":1,"bbox":[548,324,150,38]}
+{"kind":"textbox","id":"sh/z25kb6xk","slide":2,"text":"Create calendar, lag, and rolling-average features for time-series modeling.","textPreview":"Create calendar, lag, and rolling-average features for time-series modeling.","textChars":76,"textLines":1,"bbox":[548,386,150,72]}
+{"kind":"shape","id":"sh/onyd0z61","slide":2,"bbox":[768,260,190,220]}
+{"kind":"textbox","id":"sh/d8v6psfi","slide":2,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[786,282,50,28]}
+{"kind":"textbox","id":"sh/6dcbulwv","slide":2,"text":"Forecast","textPreview":"Forecast","textChars":8,"textLines":1,"bbox":[786,324,150,38]}
+{"kind":"textbox","id":"sh/vy90je9c","slide":2,"text":"Evaluate a transparent 7-day rolling-average model on the final 30 days.","textPreview":"Evaluate a transparent 7-day rolling-average model on the final 30 days.","textChars":72,"textLines":1,"bbox":[786,386,150,72]}
+{"kind":"shape","id":"sh/rmhk3q5o","slide":2,"bbox":[1006,260,190,220]}
+{"kind":"textbox","id":"sh/y1kre1w7","slide":2,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[1024,282,50,28]}
+{"kind":"textbox","id":"sh/9s36hcrm","slide":2,"text":"Recommend","textPreview":"Recommend","textChars":9,"textLines":1,"bbox":[1024,324,150,38]}
+{"kind":"textbox","id":"sh/g7adsji5","slide":2,"text":"Convert expected demand into reorder points and weekly restock quantities.","textPreview":"Convert expected demand into reorder points and weekly restock quantities.","textChars":74,"textLines":1,"bbox":[1024,386,150,72]}
+{"kind":"notes","id":"nt/ib82d9","slide":2,"text":""}
+{"kind":"slide","id":"sl/s9aiaq","slide":3,"title":"Industrial vending demand forecasting","textShapes":11}
+{"kind":"textbox","id":"sh/itgfmlkj","slide":3,"text":"Industrial vending demand forecasting","textPreview":"Industrial vending demand forecasting","textChars":37,"textLines":1,"bbox":[42,34,620,28]}
+{"kind":"textbox","id":"sh/pkzupwb2","slide":3,"text":"Demand history is large enough for trend analysis but still operationally volatile","textPreview":"Demand history is large enough for trend analysis but still operationally volatile","textChars":82,"textLines":1,"bbox":[42,78,1010,90]}
+{"kind":"shape","id":"sh/0z61032l","slide":3,"bbox":[42,174,1196,1]}
+{"kind":"shape","id":"sh/72x4nap4","slide":3,"bbox":[54,226,250,128]}
+{"kind":"textbox","id":"sh/ih4byhgn","slide":3,"text":"317,528","textPreview":"317,528","textChars":7,"textLines":1,"bbox":[72,246,214,54]}
+{"kind":"textbox","id":"sh/p8nqxs72","slide":3,"text":"units dispensed","textPreview":"units dispensed","textChars":15,"textLines":1,"bbox":[72,308,214,32]}
+{"kind":"shape","id":"sh/0nuxc3yl","slide":3,"bbox":[330,226,220,128]}
+{"kind":"textbox","id":"sh/7y1kre1w","slide":3,"text":"722","textPreview":"722","textChars":3,"textLines":1,"bbox":[348,246,184,54]}
+{"kind":"textbox","id":"sh/ed8v6psf","slide":3,"text":"restock orders","textPreview":"restock orders","textChars":14,"textLines":1,"bbox":[348,308,184,32]}
+{"kind":"shape","id":"sh/8v6psfil","slide":3,"bbox":[576,226,250,128]}
+{"kind":"textbox","id":"sh/xczed8v6","slide":3,"text":"$196.8K","textPreview":"$196.8K","textChars":7,"textLines":1,"bbox":[594,246,214,54]}
+{"kind":"textbox","id":"sh/qpg3ex0n","slide":3,"text":"restock spend","textPreview":"restock spend","textChars":13,"textLines":1,"bbox":[594,308,214,32]}
+{"kind":"shape","id":"sh/fa9w3m94","slide":3,"bbox":[852,226,220,128]}
+{"kind":"textbox","id":"sh/8jqh0fep","slide":3,"text":"0","textPreview":"0","textChars":1,"textLines":1,"bbox":[870,246,184,54]}
+{"kind":"textbox","id":"sh/x4nap4r6","slide":3,"text":"missing values","textPreview":"missing values","textChars":14,"textLines":1,"bbox":[870,308,184,32]}
+{"kind":"textbox","id":"sh/qd4vmtwr","slide":3,"text":"• Inventory data contains daily demand signal by SKU and machine.\n• Restock data records order timing and spend, not item-level restocked units.\n• This makes demand forecasting stronger than direct replenishment-quantity modeling.","textPreview":"• Inventory data contains daily demand signal by SKU and machine. | • Restock data records order timing and spend, not item-level restock...","textChars":230,"textLines":3,"bbox":[76,430,1050,112]}
+{"kind":"notes","id":"nt/s9aiaq","slide":3,"text":""}
+{"kind":"slide","id":"sl/ld56vh","slide":4,"title":"Industrial vending demand forecasting","textShapes":4}
+{"kind":"textbox","id":"sh/t47y1kre","slide":4,"text":"Industrial vending demand forecasting","textPreview":"Industrial vending demand forecasting","textChars":37,"textLines":1,"bbox":[42,34,620,28]}
+{"kind":"textbox","id":"sh/idonyd0z","slide":4,"text":"Monthly demand shows visible seasonality and changing operating levels","textPreview":"Monthly demand shows visible seasonality and changing operating levels","textChars":70,"textLines":1,"bbox":[42,78,1010,90]}
+{"kind":"shape","id":"sh/byhgn29g","slide":4,"bbox":[42,174,1196,1]}
+{"kind":"shape","id":"sh/tcj6tova","slide":4,"bbox":[860,238,310,284]}
+{"kind":"textbox","id":"sh/il0rqd4v","slide":4,"text":"Why it matters","textPreview":"Why it matters","textChars":14,"textLines":1,"bbox":[888,270,240,34]}
+{"kind":"textbox","id":"sh/b6xkf6dc","slide":4,"text":"• Restocking should respond to calendar patterns, not only average demand.\n• Rolling averages smooth noisy daily movement and expose planning direction.\n• SKU-level seasonality can refine safety stock for high-turnover items.","textPreview":"• Restocking should respond to calendar patterns, not only average demand. | • Rolling averages smooth noisy daily movement and expose pl...","textChars":225,"textLines":3,"bbox":[888,326,244,142]}
+{"kind":"chart","id":"ch/wb2hwfyx","slide":4,"name":"","chartType":"bar","bbox":[70,230,740,370]}
+{"kind":"notes","id":"nt/ld56vh","slide":4,"text":""}
+{"kind":"slide","id":"sl/ms3cc1","slide":5,"title":"Industrial vending demand forecasting","textShapes":4}
+{"kind":"textbox","id":"sh/c7u54zid","slide":5,"text":"Industrial vending demand forecasting","textPreview":"Industrial vending demand forecasting","textChars":37,"textLines":1,"bbox":[42,34,620,28]}
+{"kind":"textbox","id":"sh/jm1cfa9w","slide":5,"text":"A small set of SKUs drives a large share of replenishment pressure","textPreview":"A small set of SKUs drives a large share of replenishment pressure","textChars":66,"textLines":1,"bbox":[42,78,1010,90]}
+{"kind":"shape","id":"sh/u18jqh0f","slide":5,"bbox":[42,174,1196,1]}
+{"kind":"textbox","id":"sh/cfa9w3m9","slide":5,"text":"Top SKU\n21,845 units","textPreview":"Top SKU | 21,845 units","textChars":20,"textLines":2,"bbox":[812,252,310,104]}
+{"kind":"textbox","id":"sh/judg7ads","slide":5,"text":"High-turnover SKUs should be reviewed first for reorder points, slot allocation, and safety stock.","textPreview":"High-turnover SKUs should be reviewed first for reorder points, slot allocation, and safety stock.","textChars":98,"textLines":1,"bbox":[812,388,310,106]}
+{"kind":"chart","id":"ch/xkf6dcbu","slide":5,"name":"","chartType":"bar","bbox":[72,228,660,352]}
+{"kind":"notes","id":"nt/ms3cc1","slide":5,"text":""}
+{"kind":"slide","id":"sl/xufvzs","slide":6,"title":"Industrial vending demand forecasting","textShapes":5}
+{"kind":"textbox","id":"sh/6dcbulwv","slide":6,"text":"Industrial vending demand forecasting","textPreview":"Industrial vending demand forecasting","textChars":37,"textLines":1,"bbox":[42,34,620,28]}
+{"kind":"textbox","id":"sh/d4vmtwra","slide":6,"text":"Machine utilization is balanced, but the top two devices deserve closer monitoring","textPreview":"Machine utilization is balanced, but the top two devices deserve closer monitoring","textChars":82,"textLines":1,"bbox":[42,78,1010,90]}
+{"kind":"shape","id":"sh/oj2t83it","slide":6,"bbox":[42,174,1196,1]}
+{"kind":"shape","id":"sh/61032lsz","slide":6,"bbox":[820,260,300,128]}
+{"kind":"textbox","id":"sh/dsji5sne","slide":6,"text":"43.5%","textPreview":"43.5%","textChars":5,"textLines":1,"bbox":[838,280,264,54]}
+{"kind":"textbox","id":"sh/o7qpg3ex","slide":6,"text":"share from top two devices","textPreview":"share from top two devices","textChars":26,"textLines":1,"bbox":[838,342,264,32]}
+{"kind":"textbox","id":"sh/vahoza1g","slide":6,"text":"• Higher-use machines face greater stockout risk.\n• Underused machines may need SKU mix or placement review.\n• Device-level forecasts can turn aggregate demand into route planning.","textPreview":"• Higher-use machines face greater stockout risk. | • Underused machines may need SKU mix or placement review. | • Device-level forecasts...","textChars":180,"textLines":3,"bbox":[820,430,330,116]}
+{"kind":"chart","id":"ch/r65wjudg","slide":6,"name":"","chartType":"bar","bbox":[72,228,680,352]}
+{"kind":"notes","id":"nt/xufvzs","slide":6,"text":""}
+{"kind":"slide","id":"sl/dzn8kl","slide":7,"title":"Industrial vending demand forecasting","textShapes":12}
+{"kind":"textbox","id":"sh/3q5o7qpg","slide":7,"text":"Industrial vending demand forecasting","textPreview":"Industrial vending demand forecasting","textChars":37,"textLines":1,"bbox":[42,34,620,28]}
+{"kind":"textbox","id":"sh/wb2hwfyx","slide":7,"text":"The baseline forecast is useful, but the error confirms demand variability","textPreview":"The baseline forecast is useful, but the error confirms demand variability","textChars":74,"textLines":1,"bbox":[42,78,1010,90]}
+{"kind":"shape","id":"sh/lwval87e","slide":7,"bbox":[42,174,1196,1]}
+{"kind":"shape","id":"sh/ex0nuxc3","slide":7,"bbox":[74,240,250,128]}
+{"kind":"textbox","id":"sh/3itgfmlk","slide":7,"text":"145.2","textPreview":"145.2","textChars":5,"textLines":1,"bbox":[92,260,214,54]}
+{"kind":"textbox","id":"sh/w3m94fu1","slide":7,"text":"MAE","textPreview":"MAE","textChars":3,"textLines":1,"bbox":[92,322,214,32]}
+{"kind":"shape","id":"sh/loj2t83i","slide":7,"bbox":[352,240,250,128]}
+{"kind":"textbox","id":"sh/at47y1kr","slide":7,"text":"280.3","textPreview":"280.3","textChars":5,"textLines":1,"bbox":[370,260,214,54]}
+{"kind":"textbox","id":"sh/3ex0nuxc","slide":7,"text":"RMSE","textPreview":"RMSE","textChars":4,"textLines":1,"bbox":[370,322,214,32]}
+{"kind":"shape","id":"sh/3itgfmlk","slide":7,"bbox":[630,240,250,128]}
+{"kind":"textbox","id":"sh/ex0nuxc3","slide":7,"text":"60.5%","textPreview":"60.5%","textChars":5,"textLines":1,"bbox":[648,260,214,54]}
+{"kind":"textbox","id":"sh/loj2t83i","slide":7,"text":"MAPE","textPreview":"MAPE","textChars":4,"textLines":1,"bbox":[648,322,214,32]}
+{"kind":"shape","id":"sh/w3m94fu1","slide":7,"bbox":[934,230,250,278]}
+{"kind":"textbox","id":"sh/3q5o7qpg","slide":7,"text":"Model used","textPreview":"Model used","textChars":10,"textLines":1,"bbox":[960,262,180,28]}
+{"kind":"textbox","id":"sh/e9cvixcz","slide":7,"text":"7-day rolling average","textPreview":"7-day rolling average","textChars":21,"textLines":1,"bbox":[960,312,178,70]}
+{"kind":"textbox","id":"sh/lwval87e","slide":7,"text":"A transparent benchmark before moving to SKU/device-level models.","textPreview":"A transparent benchmark before moving to SKU/device-level models.","textChars":65,"textLines":1,"bbox":[960,414,178,58]}
+{"kind":"textbox","id":"sh/wb2hwfyx","slide":7,"text":"Same-day demand correlations: restock events -0.280, restock spend -0.249. Lagged relationships should be tested next.","textPreview":"Same-day demand correlations: restock events -0.280, restock spend -0.249. Lagged relationships should be tested next.","textChars":118,"textLines":1,"bbox":[80,560,990,52]}
+{"kind":"notes","id":"nt/dzn8kl","slide":7,"text":""}
+{"kind":"slide","id":"sl/aw2crr","slide":8,"title":"Industrial vending demand forecasting","textShapes":7}
+{"kind":"textbox","id":"sh/fepkzupw","slide":8,"text":"Industrial vending demand forecasting","textPreview":"Industrial vending demand forecasting","textChars":37,"textLines":1,"bbox":[42,34,620,28]}
+{"kind":"textbox","id":"sh/4zidonyd","slide":8,"text":"Inventory decisions should focus on priority SKUs, service buffers, and better granularity","textPreview":"Inventory decisions should focus on priority SKUs, service buffers, and better granularity","textChars":90,"textLines":1,"bbox":[42,78,1010,90]}
+{"kind":"shape","id":"sh/xkf6dcbu","slide":8,"bbox":[42,174,1196,1]}
+{"kind":"shape","id":"sh/mlkjm1cf","slide":8,"bbox":[70,232,360,270]}
+{"kind":"textbox","id":"sh/f6dcbulw","slide":8,"text":"Immediate recommendation","textPreview":"Immediate recommendation","textChars":24,"textLines":1,"bbox":[96,262,280,30]}
+{"kind":"textbox","id":"sh/4r65wjud","slide":8,"text":"192 units","textPreview":"192 units","textChars":9,"textLines":1,"bbox":[96,320,250,58]}
+{"kind":"textbox","id":"sh/xc3ylc7u","slide":8,"text":"reorder point for the highest-turnover SKU, using 7-day lead time and 20% buffer","textPreview":"reorder point for the highest-turnover SKU, using 7-day lead time and 20% buffer","textChars":80,"textLines":1,"bbox":[96,402,268,62]}
+{"kind":"textbox","id":"sh/m94fu18j","slide":8,"text":"• Add current on-hand inventory by SKU and device.\n• Forecast the top SKUs separately instead of only aggregate demand.\n• Use safety-stock rules for high-variance products.\n• Study lagged restock effects to improve timing.\n• Monitor the top two devices more frequently.","textPreview":"• Add current on-hand inventory by SKU and device. | • Forecast the top SKUs separately instead of only aggregate demand. | • Use safety-...","textChars":269,"textLines":5,"bbox":[520,238,610,230]}
+{"kind":"textbox","id":"sh/fu18jqh0","slide":8,"text":"Practical implication: the baseline model is enough to start prioritizing restock attention, but operational deployment should use SKU/device-level demand and live inventory balances.","textPreview":"Practical implication: the baseline model is enough to start prioritizing restock attention, but operational deployment should use SKU/de...","textChars":183,"textLines":1,"bbox":[520,536,640,54]}
+{"kind":"notes","id":"nt/aw2crr","slide":8,"text":""}
