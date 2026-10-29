@@ -1,5 +1,7 @@
 # Industrial Vending Demand Forecasting
 
+> Data Engineer Academy module project: demand forecasting and restocking for industrial vending machines.
+
 This folder contains a dependency-light Python pipeline for the vending-machine
 forecasting assignment.
 
